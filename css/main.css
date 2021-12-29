@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,600;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  padding: 2rem 5rem;
+  background: url("/dist/images/bg-hero-desktop.svg"), #ebfbff;
+  background-size: contain;
+  background-position: bottom;
+  height: 90vh;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+header section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header section div h1 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+header section div p {
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+header section div:nth-of-type(1) {
+  width: 46%;
+  padding-right: 1rem;
+}
+
+header section div:nth-of-type(2) {
+  width: 50%;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem 5rem;
+  margin-bottom: 7.5rem;
+}
+
+main section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+main section div {
+  width: 55%;
+  padding: 3rem;
+}
+
+main section:nth-of-type(2) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+main .img-container {
+  width: 40%;
+}
+
+main h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+  line-height: 1.5rem;
+}
+
+.footer-container {
+  background-color: #00252e;
+  padding: 5rem;
+  color: white;
+  font-size: 0.9rem;
+  position: relative;
+}
+
+.footer-container footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-container footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33.3%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer-container footer section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.footer-container footer section div img {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.footer-container footer .f-links {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-container footer .f-links div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+button {
+  padding: 0.5rem 3rem;
+  background: #ff52bf;
+  border-radius: 5rem;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: white;
+}
+
+nav button {
+  background-color: white;
+  color: #00252e;
+  -webkit-box-shadow: 0 1rem 1rem -0.5rem black;
+          box-shadow: 0 1rem 1rem -0.5rem black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 10rem;
+  margin-bottom: 2.5rem;
+}
+
+.banner {
+  background-color: white;
+  color: black;
+  width: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -60%);
+          transform: translate(-50%, -60%);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 20px -10px black;
+          box-shadow: 0 0 20px -10px black;
+}
+
+.banner button {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
